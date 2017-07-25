@@ -4,7 +4,6 @@ var hbs = require('hbs');
 
 var app = express();
 
-
 app.use(express.static('public'));
 var index = require('./routes/index.js');
 var header = require('./routes/header.js');

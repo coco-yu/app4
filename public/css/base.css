@@ -7,8 +7,38 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
 body {
   font-size: 14px;
   font-family: '微软雅黑 宋体';
 }
 
+
+// 左浮动
+.header-left {
+  float: left;
+}
+
+// 右浮动
+.header-right {
+  float: right;
+}
+
+// 清除浮动
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}

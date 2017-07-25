@@ -5,8 +5,29 @@
 
 .main-header {
   width: 100%;
+  min-width: 992px;
   height: 80px;
-  max-width: 80px;
+  max-height: 80px;
   background-color: #fff;
+  // overflow: hidden;
   border-bottom: 1px solid #EBF2F6;
+}
+
+.main-nav {
+  max-width: 1080px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.main-title {
+  width: 150px;
+  padding: 25px 0;
+  text-align: center;
+  background-color: #009a61;
+}
+
+.main-title > a {
+  color: #fff;
+  font-size: 30px;  
+  line-height: 30px;
 }
